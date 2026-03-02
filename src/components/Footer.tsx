@@ -5,7 +5,7 @@ const Footer = () => (
         © {new Date().getFullYear()} Jamees David. All rights reserved.
       </p>
       <p className="text-xs text-muted-foreground">
-        Built with TypeScript & React
+        Built with TypeScript ❤️
       </p>
     </div>
   </footer>

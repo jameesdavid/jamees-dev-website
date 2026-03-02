@@ -4,14 +4,9 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Jamees architected our microservices infrastructure on GCP, handling Pub/Sub integrations and Redis caching that scaled across 31 countries. His technical leadership and clean code practices are outstanding.",
-    name: "Team Lead",
-    role: "MC1 - Win The Market",
-  },
-  {
-    text: "Jamees's ability to deliver full-stack solutions across Flutter, Angular, and cloud backends made him an invaluable asset. His work on serverless integrations was top-notch.",
-    name: "Project Manager",
-    role: "Simonini Software",
+    text: "I worked with Jamees on the same team. Initially, I was the only tech lead at the company, and later Jamees was asked to take on the role of Tech Lead for the Web team. He's brutally skilled. Jamees doesn't settle for shallow explanations; he digs deep until he fully understands how things actually work. He has strong knowledge of core topics like concurrency, asymptotic analysis, architectures, and best practices. On top of that, he's easily the person who knows Git best in my social circle. Technically sharp, curious, and dependable. I'd strongly recommend him for senior or tech lead roles.",
+    name: "Renan Maganha",
+    role: "Senior iOS Engineer · Swift & SwiftUI · UIKit",
   },
 ];
 
@@ -34,7 +29,7 @@ const Testimonials = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="max-w-2xl mx-auto">
           {testimonials.map((t, i) => (
             <motion.blockquote
               key={t.name}

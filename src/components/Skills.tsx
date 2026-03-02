@@ -8,7 +8,7 @@ const categories = [
   {
     icon: Monitor,
     title: "Frontend",
-    skills: ["Angular", "TypeScript", "React", "Vue.js", "Next.js", "HTML/CSS", "JavaScript", "Ionic"],
+    skills: ["Angular", "TypeScript", "React", "Vue.js", "Next.js", "HTML/CSS", "JavaScript", "Flutter"],
   },
   {
     icon: Server,
@@ -18,12 +18,12 @@ const categories = [
   {
     icon: Cloud,
     title: "Cloud & Infra",
-    skills: ["Cloud Run", "Pub/Sub", "Cloud Functions", "Firebase", "Firestore", "AWS Lambda", "Redis"],
+    skills: ["GCP", "AWS", "Firebase", "Oracle", "Cloud Run", "Pub/Sub", "Redis", "Cloud Functions", "AWS Lambda"],
   },
   {
     icon: Database,
     title: "Data",
-    skills: ["BigQuery", "SQL", "MongoDB", "Firestore", "Data Modeling"],
+    skills: ["Firestore", "BigQuery", "SQL", "MongoDB", "Data Modeling"],
   },
   {
     icon: Container,
@@ -33,12 +33,12 @@ const categories = [
   {
     icon: TestTube,
     title: "Testing",
-    skills: ["Jest", "Playwright", "Unit Testing", "E2E Testing"],
+    skills: ["Jest", "Playwright", "Vitest", "Unit Testing", "E2E Testing"],
   },
   {
     icon: BrainCircuit,
     title: "AI & ML",
-    skills: ["LLMs", "RAG", "Prompt Engineering", "MCP Servers"],
+    skills: ["LLMs", "RAG", "MCP Servers"],
   },
   {
     icon: Monitor,
